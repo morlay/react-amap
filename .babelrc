@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "@morlay/babel-preset",
+    "react"
+  ],
+  "plugins": [
+    "transform-es2015-modules-commonjs",
+    [
+      "module-alias",
+      [
+        {
+          "src": "./src",
+          "expose": "src"
+        }
+      ]
+    ]
+  ]
+}
